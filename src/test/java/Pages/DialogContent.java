@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class DialogContent extends Parent {
 
+    //ihityacınız olan locatorların mükerrer olmaması için sonlarına ad ve soyadlarınızın baş harflerini yazın -> loginButtonCY gibi
+
     public DialogContent() {
         PageFactory.initElements(GWD.getDriver(), this);
     }
